@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b" />
+      <stop offset="50%" stop-color="#312e81" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fed7aa" />
+      <stop offset="100%" stop-color="#fdba74" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bgGrad)" />
+
+  <!-- Abstract Tech Grid Lines -->
+  <g stroke="rgba(255,255,255,0.08)" stroke-width="1.5">
+    <line x1="0" y1="100" x2="400" y2="100" />
+    <line x1="0" y1="200" x2="400" y2="200" />
+    <line x1="0" y1="300" x2="400" y2="300" />
+    <line x1="100" y1="0" x2="100" y2="400" />
+    <line x1="200" y1="0" x2="200" y2="400" />
+    <line x1="300" y1="0" x2="300" y2="400" />
+  </g>
+
+  <!-- Glow Circle -->
+  <circle cx="200" cy="180" r="110" fill="url(#accentGrad)" opacity="0.3" filter="blur(20px)" />
+
+  <!-- Avatar Character Body -->
+  <path d="M 120 370 C 120 280, 280 280, 280 370 Z" fill="#1e293b" stroke="#334155" stroke-width="4" />
+  <!-- Hoodie details -->
+  <path d="M 160 300 L 200 350 L 240 300" fill="none" stroke="url(#accentGrad)" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Head -->
+  <circle cx="200" cy="190" r="65" fill="url(#skinGrad)" />
+
+  <!-- Hair -->
+  <path d="M 135 180 C 135 110, 265 110, 265 180 C 240 145, 160 145, 135 180 Z" fill="#0f172a" />
+
+  <!-- Stylish Glasses -->
+  <rect x="155" y="175" width="38" height="24" rx="6" fill="#020617" stroke="#6366f1" stroke-width="3" />
+  <rect x="207" y="175" width="38" height="24" rx="6" fill="#020617" stroke="#6366f1" stroke-width="3" />
+  <line x1="193" y1="187" x2="207" y2="187" stroke="#6366f1" stroke-width="3" />
+
+  <!-- Smile -->
+  <path d="M 185 225 Q 200 238 215 225" fill="none" stroke="#9a3412" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Code Bracket Highlights -->
+  <text x="50" y="90" font-family="monospace" font-size="28" font-weight="bold" fill="#06b6d4" opacity="0.7">&lt;dev&gt;</text>
+  <text x="270" y="340" font-family="monospace" font-size="28" font-weight="bold" fill="#a855f7" opacity="0.7">&lt;/dev&gt;</text>
+</svg>
