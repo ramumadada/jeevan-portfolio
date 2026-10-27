@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.5.0] - 2026-10-27
+
+### Changed
+- **PG Research Project Thumbnail**:
+  - Replaced vector SVG placeholder with the user's authentic numerical simulation result ([`assets/images/project-owc-cfd.png`](file:///C:/Work/Jeeven_anna_portfolio/assets/images/project-owc-cfd.png)).
+  - Shows the ANSYS Fluent *Water.Volume Fraction Contour* for the modular multi-chamber Oscillating Water Column (OWC) wave interaction flume.
+
+---
+
 ## [1.4.0] - 2026-10-27
 
 ### Added

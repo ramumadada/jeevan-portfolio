@@ -88,6 +88,7 @@ Copy this exact snippet and paste it right before the `<!-- INSERT NEW PROJECT C
 
 1. **Modular Oscillating Water Columns (OWC) with Multi-Chamber Configuration**
    - **Type**: PG Scholar Research (Andhra University)
+   - **Thumbnail**: `assets/images/project-owc-cfd.png` (Water Volume Fraction Contour CFD plot)
    - **Google Drive Link**: `https://drive.google.com/drive/folders/1-uujyVkvmWQArlMmPnrJcGE0J5yZZVeT`
    - **Tags**: `ANSYS Fluent`, `CFD`, `RANS Modeling`, `Wave Energy`
 
